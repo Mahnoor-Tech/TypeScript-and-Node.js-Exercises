@@ -3,7 +3,7 @@
 let tshirt_size: string = "medium";
 let text_message: string = "Software Developer";
 
-function make_shirt(size: string, message: string): void {
+function make_shirt(size: string, message: string) {
   console.log(`T-shirt Size: ${size}. \nText on T-shirt: ${message}.`);
 }
 
