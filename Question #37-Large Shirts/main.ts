@@ -3,7 +3,7 @@
 function make_shirt(
   size: string = "large",
   message: string = "I Love Typescript"
-): void {
+) {
   console.log(`T-shirt Size: ${size}. \nText on T-shirt: ${message}.`);
 }
 
