@@ -2,7 +2,7 @@
 // "Lahore, Pakistan"
 // Call your function with at least three city-country pairs, and print the value that’s returned.
 
-function city_country(city: string, country: string): void {
+function city_country(city: string, country: string) {
   console.log(`"${city},${country}"`);
 }
 
