@@ -20,25 +20,35 @@ let places_to_visit: string[] = [
   "Japan",
 ];
 
-// display original array
-console.log(`Original Array: "${places_to_visit}" \n`);
+// display original order of an array
+console.log(`Original Order: "${places_to_visit}" \n`);
 
-// sort in alphabetical order
+// sorting in alphabetical order like [A,B,C,....]
 console.log(
-  "sorting array in an alphabetical order : " + [...places_to_visit].sort()
+  "Alphabetical Order : " + [...places_to_visit].sort()
 );
-console.log(`Original Array after Sorting: "${places_to_visit}"`);
 
-// Display array in reversible order
-console.log("Reversible Array: " + [...places_to_visit].sort().reverse());
-console.log(`Original Array after performing reversible: "${places_to_visit}"`);
+// display original order after sorting in alphabetical order
+console.log(`Original Order: "${places_to_visit}"`);
 
-// Display in Reversible Order Again
-console.log("Reversible Array: " + places_to_visit.reverse());
-console.log("Again Reversible Array: " + places_to_visit.reverse());
+// Display array in reversible order like [z,y,x,...]
+console.log("Reverse Alphabetical Order: " + [...places_to_visit].sort().reverse());
 
-// Display in Alphabetical Order
-console.log("Sorted Array: " + places_to_visit.sort());
+// display original order
+console.log(`Original Order: "${places_to_visit}"`);
 
-// Print the list to show that its order has changed.
-console.log("Sorted Array: " + places_to_visit.sort().reverse());
+// display in reversible order again 
+places_to_visit.reverse();
+console.log("Reversed Order: " + places_to_visit);
+
+// display in reversible order again 
+places_to_visit.reverse();
+console.log("Original order: " + places_to_visit);
+
+// display in alphabetical order
+places_to_visit.sort()
+console.log("Alphabetical Order: " + places_to_visit);
+
+// display in reversible order again 
+places_to_visit.reverse();
+console.log("Reverse Alphabetical Order: " + places_to_visit);
